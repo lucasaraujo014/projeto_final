@@ -1,3 +1,10 @@
+header{
+  border-top: 10px solid #00005a ;
+  border-bottom: 10px solid #00005a ;
+}
+body{
+  background-color: #e8e8e3;
+}
 nav {
   width: 100%;
   z-index: 3;
@@ -9,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1.5rem;
+  margin-right: 20px;
 }
 
 .links {
@@ -18,7 +25,7 @@ nav {
 
 .links li {
   margin-left: 8rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -39,3 +46,57 @@ nav {
   width: 70%;
   height: 50%;
 }
+section{
+  background-color: #e8e8e3;
+}
+
+footer {
+
+  background-color: #00005a;
+  height: 350px;
+
+}
+.selecao {
+  padding: 15px;
+  text-align: start;
+   }
+
+     .click {
+      color: #fff;
+      font-size: 0.9rem;
+      list-style: none;
+      letter-spacing: 2px;
+      font-weight: lighter;
+      font-style: normal;
+    }
+
+    .f-h3 {
+      display: flex;
+      text-align: center;
+      align-items: center;
+    }
+
+    .menu-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+   .a-footer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 19px;
+
+  }
+
+   .a:hover {
+    padding: 0.1rem 1rem;
+    color: #272961;
+    background-color: #fff;
+    cursor: pointer;
+  }
